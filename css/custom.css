@@ -40,3 +40,11 @@
   .green,.p{
       padding:.4em 3em;
   }
+.map{
+    background-image: url(../assets/map.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    padding:0;
+    margin:1em 0;
+}
