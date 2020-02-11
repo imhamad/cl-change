@@ -50,7 +50,7 @@
                     <input class="form-control mr-sm-2" type="search" placeholder="Climate Problems!"
                         aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <!-- <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
                         <li class="nav-item">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09"
@@ -67,7 +67,8 @@
                             </div>
                         </li>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <div id="google_translate_element" class=""></div>
                 </form>
 
 
@@ -219,7 +220,14 @@
 
 </div>
     <!-- the world need you //  -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages: 'ar,de,en,nl,ru,fa,ur',}, 'google_translate_element');
+          
+        }
+        </script>
     <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 

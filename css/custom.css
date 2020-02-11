@@ -69,8 +69,30 @@ padding-bottom: 12px;
 
 /* 3rd party code elimination */
 
+.goog-te-banner{
+    display: none;
 
-
+}
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0;
+    margin-left:.5em !important;
+    padding:1em !important;
+    width: 10em;
+    margin-top: 1em !important;
+}
+.goog-logo-link {
+    display:none !important;
+ } 
+ 
+ .goog-te-gadget{
+    color: transparent !important;
+ }
+ .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
 /* Small Screen Coding */
 @media screen and (max-width:768px) {}
 
