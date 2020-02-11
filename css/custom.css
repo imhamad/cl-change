@@ -21,14 +21,15 @@
     width: 52%;
 
 }
-.border-length{
+
+.border-length {
     width: 38.5%;
     font-weight: lighter;
     border-bottom: 1px solid orange;
     text-align: center;
     margin: auto;
     text-align: center;
-padding-bottom: 12px;
+    padding-bottom: 12px;
 }
 
 .changes {
@@ -69,30 +70,148 @@ padding-bottom: 12px;
 
 /* 3rd party code elimination */
 
-.goog-te-banner{
+.goog-te-banner {
     display: none;
 
 }
+
 .goog-te-gadget .goog-te-combo {
     margin: 0px 0;
-    margin-left:.5em !important;
-    padding:1em !important;
+    margin-left: .5em !important;
+    padding: 1em !important;
     width: 10em;
     margin-top: 1em !important;
 }
+
 .goog-logo-link {
-    display:none !important;
- } 
- 
- .goog-te-gadget{
-    color: transparent !important;
- }
- .goog-te-banner-frame.skiptranslate {
     display: none !important;
-    } 
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
 body {
-    top: 0px !important; 
-    }
+    top: 0px !important;
+}
+
+.main_footer .brand_area {
+    background: url(https://climate.nasa.gov/assets/logo_nasa_trio_white@2x.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 300;
+    display: inline-block;
+    display: none;
+}
+
+
+
+/* 3rd party code ended */
+
+
+/*  form section  
+​
+input css
+​
+*/
+.form-input-custom {
+    border: none;
+    border-bottom: 2px solid #F5A52A;
+    font-size: 18px;
+    border-radius: 0px;
+
+
+}
+
+/*form button*/
+.form-buttom-custom {
+    padding: 10px;
+    background-color: #F5A52A;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 120px;
+}
+
+​ ​
+
+/*  form section  
+
+input css
+
+*/
+.form-input-custom {
+    border: none;
+    border-bottom: 2px solid #F5A52A;
+    font-size: 18px;
+    border-radius: 0px;
+
+
+}
+
+/*form button*/
+.form-buttom-custom {
+    padding: 10px;
+    background-color: #F5A52A;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 120px;
+}
+
+
+/*  right section div   */
+
+.volunteer-custom {
+
+    background-image: radial-gradient(#7FBD00, #000);
+    max-height: 50vh;
+}
+
+.volunteer-custom img {
+    max-width: 15em;
+    padding: 0em 1em;
+    text-align: center;
+}
+
+.head {
+
+    color: white;
+    padding: 0 1em;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+.button-volunteer {
+    padding: 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 800;
+    width: 150px;
+    transition: all .3s ease-in;
+}
+
+.form-check-label {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+
+}
+
+.button-volunteer:hover {
+    background-color: white;
+    color: black;
+    transform: scaleX(1.1);
+}
+
 /* Small Screen Coding */
 @media screen and (max-width:768px) {}
 
@@ -100,7 +219,9 @@ body {
     .carousel-item img {
         max-height: 40vh;
     }
-    .what-we-do,.border-length {
+
+    .what-we-do,
+    .border-length {
         /* width:52%; */
         font-weight: lighter;
         border-bottom: 1px solid orange;
@@ -108,7 +229,7 @@ body {
         margin: auto;
         width: 100%;
         font-size: 2em;
-    
+
     }
 
 }
