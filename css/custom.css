@@ -212,8 +212,52 @@ input css
     transform: scaleX(1.1);
 }
 
+
+
+
+/* footer section code  */
+.footer{
+    background-image: url(../assets/footer.jpg);
+    
+    background-position: center;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding:5em 0em !important;
+   
+}
+.row {
+   
+    margin: auto;
+}
+.content p{
+    color:#fff;
+}
+.footer-copyright{
+    font-size: 14px;
+    background:#000;
+    min-width: 100%;
+    
+}
+.footer--copy{
+    font-size: 14px;
+  color:#fff;
+  text-align: right;
+  padding:1.4em;
+  width:100%;
+  display: block;
+    
+}
+.footer--copy a{
+    color:white;
+}
 /* Small Screen Coding */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+
+}
 
 @media screen and (max-width:568px) {
     .carousel-item img {
