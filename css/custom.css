@@ -54,7 +54,7 @@
 .movement:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     background-color: #D06427;
-        color:white;
+    color: white;
     box-shadow: -15px -15px #ffbb00;
     transition: all 0.3s linear;
 }
@@ -215,16 +215,17 @@ input css
     background-color: white;
     color: black;
     transform: scaleX(1.1);
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 
 
 
+
 /* footer section code  */
-.footer{
+.footer {
     background-image: url(../assets/footer.jpg);
-    
+
     background-position: center;
     background-origin: content-box;
     background-size: 100% 100%;
@@ -232,38 +233,42 @@ input css
     display: flex;
     align-content: center;
     align-items: center;
-    padding:5em 0em !important;
-   
-}
-.row {
-   
-    margin: auto;
-}
-.content p{
-    color:#fff;
-}
-.footer-copyright{
-    font-size: 14px;
-    background:#000;
-    min-width: 100%;
-    
-}
-.footer--copy{
-    font-size: 14px;
-  color:#fff;
-  text-align: right;
-  padding:1.4em;
-  width:100%;
-  display: block;
-    
-}
-.footer--copy a{
-    color:white;
-}
-/* Small Screen Coding */
-@media screen and (max-width:768px) {
+    padding: 5em 0em !important;
 
 }
+
+.row {
+
+    margin: auto;
+}
+
+.content p {
+    color: #fff;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    background: #000;
+    min-width: 100%;
+
+}
+
+.footer--copy {
+    font-size: 14px;
+    color: #fff;
+    text-align: right;
+    padding: 1.4em;
+    width: 100%;
+    display: block;
+
+}
+
+.footer--copy a {
+    color: white;
+}
+
+/* Small Screen Coding */
+@media screen and (max-width:768px) {}
 
 @media screen and (max-width:568px) {
     .carousel-item img {
@@ -291,8 +296,8 @@ input css
 /* Arrows */
 
 
-.r--arrow{
-    color:white;
+.r--arrow {
+    color: white;
     font-size: 14px;
     font-weight: bold;
 }
