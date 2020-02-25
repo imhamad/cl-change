@@ -301,3 +301,30 @@ input css
     font-size: 14px;
     font-weight: bold;
 }
+
+
+/* mission page css started  */
+.mission--header{
+    background-color: #F3F7FA;
+}
+.mission--copy h2{
+ font-size: 2.5em;
+ color:#2A344E;
+ line-height: 3rem;
+    font-weight: bold;
+
+}
+.mission--copy p{
+    color: #667082;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    font-weight: lighter;
+}
+.mission--counter{
+border:1px solid #cecece;
+padding:1em;
+position: relative;
+top:-2em;
+z-index: 2;
+background-color: #fff;
+}
