@@ -328,3 +328,27 @@ top:-2em;
 z-index: 2;
 background-color: #fff;
 }
+.div-parent-section{
+font-size: 16px;
+color:#2A344E;
+}
+.div-middle-section{
+    color:grey;
+
+}
+.div-middle-section{
+    color: #667082;
+}
+.div-middle-section::before{
+  
+    display: inline-block;
+    content: '\2191';
+    vertical-align: middle;
+    color: darkgreen;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0 .3em .3em 0;
+    /* margin: 0 .6em 0 0; */
+
+}
