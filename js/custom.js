@@ -15,6 +15,7 @@
       var interval1;
       const changeNumber = () => {
         currentNumber += value;
+
         (deltaPositive && currentNumber >= numberTo) || (!deltaPositive &&currentNumber<= numberTo) ? currentNumber=numberTo : currentNumber;
         this.text(parseInt(currentNumber));
         currentNumber == numberTo ? clearInterval(interval1) : currentNumber;  
@@ -27,7 +28,10 @@
   $(document).ready(function(){
   
     $('.count-up').counter();
-
+    $('.count1').counter();
+    $('.count2').counter();
+    $('.count3').counter();
+    $('.count4').counter();
     
     new WOW().init();
     

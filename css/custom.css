@@ -306,6 +306,7 @@ input css
 /* mission page css started  */
 .mission--header{
     background-color: #F3F7FA;
+    min-height: 67.5vh;
 }
 .mission--copy h2{
  font-size: 2.5em;
@@ -321,12 +322,18 @@ input css
     font-weight: lighter;
 }
 .mission--counter{
-border:1px solid #cecece;
-padding:1em;
-position: relative;
-top:-2em;
+top: -6em;
 z-index: 2;
 background-color: #fff;
+border-radius: 10px;
+padding: 2em 2em;
+transition: .3s;
+position: relative;
+box-shadow: 0 4px 4px rgba(0,0,0,0.09), 0 2px 2px rgba(0,0,0,0.22);
+/* top:-3em; */
+}
+.mission--counter:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .div-parent-section{
 font-size: 16px;
