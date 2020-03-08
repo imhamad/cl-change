@@ -359,6 +359,24 @@ color:#2A344E;
     /* margin: 0 .6em 0 0; */
 
 }
+
+/*card css starts*/
+.custom-objective{
+    background-color: #F3F7FA;
+    padding: 46px 0px;
+}
+.custom-heading{
+    padding: 18px 0px;
+}
+.custom-card{
+    border:none;
+    padding: 18px 0px;
+}
+.card h3{
+    font-size : 1.2rem;
+    font-weight : 600;
+}
+/* card css ends */
 .footer-second{
 
     background: #0DAB7C url(../assets/bg__designed.png) center center no-repeat;
