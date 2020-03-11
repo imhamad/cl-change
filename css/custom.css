@@ -3,7 +3,9 @@
 * {
     font-family: 'Lato', sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 .navbar-brand img {
     max-width: 70px;
 }
@@ -381,4 +383,86 @@ color:#2A344E;
 
     background: #0DAB7C url(../assets/bg__designed.png) center center no-repeat;
 }
+.cust-height{
+    height: 400px;
+    transition: all .3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+}
+.core-mission{
+    overflow: hidden;
+}
+
+/* core-mission  */
+.bg-m{
+    background-image: url(../assets/no-other-planet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 1em;
+    overflow: hidden;
+}
+.bg-m-two{
+    background-image: url(../assets/no-other-planet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 1em;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+@media screen and (min-width:767px){
+    .bg-m{
+        background-image: url(../assets/no-other-planet.jpg);
+        position: absolute;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: absolute; */
+        margin: 2em 0 0 auto !important;
+        right: -20px;
+        height: 380px;
+        min-width: 60%;
+        overflow-x: hidden;
+        transform: skewX(-20deg);
+        transform-origin: bottom left;
+        transition: all .3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .bg-m-two{
+        background-image: url(../assets/no-other-planet.jpg);
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top:0;
+        left: -20px;
+        height: 380px;
+        transform: skewX(-20deg);
+        transform-origin: top right;
+        min-width: 55%;
+    }
+
+    .bg-m:hover{
+        outline: dashed;
+        outline-offset: 4px;
+        outline-width: 1px;
+        outline-color: #cecece;
+        transition: .3s linear;
+        
+    }
+}
+.width-full{
+    min-width: 100%;
+}
+.who-says-it::before{
+    content: "“";
+    color: rgb(20, 9, 88);
+    font-size: 40px;
+    display: inline-block;
+    line-height: 1;
+    opacity: 0.7;
+    text-align: left;
+
 }
